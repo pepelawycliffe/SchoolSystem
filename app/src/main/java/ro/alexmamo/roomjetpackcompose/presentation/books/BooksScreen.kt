@@ -75,15 +75,7 @@ fun BooksScreen(
 
         
     )
-    Column (modifier = Modifier.fillMaxWidth().padding(80.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center){
-        Button(onClick = {
 
-        }) {
-            Text(text = "Course")
-        }
-    }
 
     
 

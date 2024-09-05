@@ -6,12 +6,13 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import ro.alexmamo.roomjetpackcompose.navigation.NavGraph
+import ro.alexmamo.roomjetpackcompose.navigation.NavGraph1
 
 @Composable
-fun HomeScreen(navController: NavController){
+fun CoursesScreen(navController: NavController){
     Column(modifier = Modifier) {
         Column {
-            NavGraph(
+            NavGraph1(
                 navController = rememberNavController()
             )
         }

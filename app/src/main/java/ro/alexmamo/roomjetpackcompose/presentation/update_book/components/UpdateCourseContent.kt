@@ -28,7 +28,7 @@ fun UpdateCourseContent(
     showEmptyTitleMessage: () -> Unit,
     showEmptyAuthorMessage: () -> Unit,
     updateCourseUnitId: (unitId: String) -> Unit,
-    updateCourseUnitName: (UnitName: String) -> Unit,
+    updateCourseUnitName: (unitName: String) -> Unit,
     updateCourseLecture: (lecture: String) -> Unit,
     updateCourse: () -> Unit,
     navigateBack: () -> Unit
