@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "ro.alexmamo.roomjetpackcompose"
+    namespace = "com.example.roomjetpackcompose"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "ro.alexmamo.roomjetpackcompose"
+        applicationId = "com.example.roomjetpackcompose"
         minSdk = 21
         targetSdk = 34
         versionCode = 1
@@ -47,4 +47,5 @@ dependencies {
     ksp(libs.hilt.compiler)
     //Hilt Navigation Compose
     implementation(libs.hilt.navigation.compose)
+    
 }
