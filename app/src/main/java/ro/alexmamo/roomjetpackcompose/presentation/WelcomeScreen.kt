@@ -42,7 +42,7 @@ fun WelcomeScreen(navController: NavController){
             Column (modifier = Modifier.fillMaxWidth(),
                 horizontalAlignment = Alignment.CenterHorizontally){
                 Button(onClick = {
-//                    navController.navigate(Routes.CoursesScreen)
+                    navController.navigate(Routes.AmountScreen)
                                  },
                     Modifier.size(width = 280.dp,
                         height = 60.dp)){

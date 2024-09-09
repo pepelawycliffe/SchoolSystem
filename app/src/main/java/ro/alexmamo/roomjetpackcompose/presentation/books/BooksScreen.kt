@@ -68,17 +68,8 @@ fun BooksScreen(
                     
                 }
             )
-
-            
         }
-
-
-        
     )
-
-
-    
-
     if (openAddBookDialog) {
         AddBookAlertDialog(
             showEmptyTitleMessage = {
@@ -97,22 +88,4 @@ fun BooksScreen(
         )
 
     }
-//    if (openAddCourseDialog) {
-//        AddCourseAlertDialog(
-//            showEmptyTitleMessage = {
-//                toastMessage(context, EMPTY_TITLE_MESSAGE)
-//            },
-//            showEmptyAuthorMessage = {
-//                toastMessage(context, EMPTY_AUTHOR_MESSAGE)
-//            },
-//            addCourse = { courseEntity ->
-//                viewModel.addCourse(courseEntity)
-//            },
-//
-//            closeDialog = {
-//                openAddCourseDialog = false
-//            }
-//        )
-//
-//    }
 }

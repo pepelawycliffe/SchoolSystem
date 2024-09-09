@@ -35,6 +35,12 @@ class MainActivity : ComponentActivity() {
 
 
                 }
+                composable(Routes.AmountScreen){
+//                    HomeScreen(navController)
+                    AmountScreen(navController = navController)
+
+
+                }
 //                composable(Routes.todoViewModel){
 //                    todoViewModel(navController)
 

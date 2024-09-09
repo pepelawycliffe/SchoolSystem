@@ -8,6 +8,7 @@ class Constants {
         //Screens
         const val STUDENT_SCREEN = "Student"
         const val COURSE_SCREEN = "Course"
+        const val AMOUNT_SCREEN = "Amount"
         const val UPDATE_BOOK_SCREEN = "Update book"
 
         //Arguments
